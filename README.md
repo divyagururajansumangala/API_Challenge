@@ -1,2 +1,17 @@
 # API_Challenge
- WeatherPy_VacationPy
+
+WeatherPy Analysis
+
+1.It is noted that Higher temperature is noticed in the cities near to the Equator.
+The linear regression shows that there is high positive correlation between the maximum temperature and Latitude in the citties in Northern Hemisphere.
+Which means as the Latitude increases from Equator, the temperature decreases and as it nears to Equator higher temperatures are experienced.
+However, no such conclusion could be gained from the graph between Latitude of cities in Southern Hemisphere and the temperature.
+2.There is not enough conclusion to be drawn out of the correlation plotting between Humidity and Latitude of cities in both hemispheres.
+Same is with Latitude and cloudiness data and also Latitude and Wind speed data.
+
+
+Vaction Py Analysis
+
+1.Further to the above analysis of the weather conditions in differenet cities of the world, it is time to create a list of hotels where I can visit for my next vacation.So we have used the weather data dataframe and added a heatmap layer on it to to identify the ideal locations.
+2.Then we created a new dataframe called cleand data using the following conditions:- A max temperature lower than 80 degrees but higher than 70.I have converted this Farenheit to Celsius;Wind speed less than 10 mph;Zero cloudiness and drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+3.The hotel list ended with 20 hotels from different parts of the world and these are shown in the geo map using markers.
